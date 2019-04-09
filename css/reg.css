@@ -1,0 +1,201 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 100px;
+	font-size: 26.67vw;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    font-size: .12rem;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{ 
+    text-decoration: none;
+    color: #000;
+}
+.icofont{
+    font-size: .15rem;
+}
+
+/* header */
+.head{
+    width: 100%;
+    height: .44rem;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+    align-items:center;
+}
+.back{
+    width: .41rem;
+    font-size: .22rem;
+    line-height: .41rem;
+    text-align: center;
+    color:#464646;
+}
+.reg_tit{
+    font-size: .15rem;
+    flex: 1;
+    text-align:center;
+}
+
+/* section */
+.section{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding:.2rem;
+    flex: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: column;
+}
+.section_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    width: 100%;
+    display: flex;  
+}
+.input_box{
+    flex:1;
+    height: .41rem;
+    border-bottom: .01rem solid #dddddd;
+    position: relative;
+    line-height: .41rem;
+}
+.message{
+    height: .41rem;
+    flex: 1;
+    border:none;
+    width: 100%;
+    height: 100%;
+    font-size: .13rem;
+    outline: none;
+}
+.message::-webkit-input-placeholder{
+    color:#cecece;
+}
+.wrong{
+    color:#b81c22;
+    position: absolute;
+    font-size: .2rem;
+    top:0.1rem;
+    right: 0rem;
+    display: none;
+}
+.hint{
+    display: block;
+    padding:.07rem;
+    background: #b81c22;
+    position: absolute;
+    border-radius: .04rem;
+    bottom:-.31rem;
+    right: -.1rem;
+    color:#fff;
+    z-index: 1;
+    display: none;
+}
+.tric{
+    height: 0;
+    width: 0;
+    display: block;
+    border:.06rem solid transparent;
+    border-bottom-color: #b81c22;
+    position: absolute;
+    top:-.12rem;
+    right: .13rem;
+}
+.send_code{
+    height: .41rem;
+    width: .85rem;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    color:#fff;
+    background: #cecece;
+    margin-left:.1rem;
+    font-size: .12rem;
+}
+
+.checked{
+    vertical-align: middle;
+    margin-right:.1rem;
+    color:#fff;
+}
+
+.sub_btn{
+    border:none;
+}
+.btn{
+    height: .41rem;
+    border-radius: .06rem;
+    border:none;
+    outline: none;
+    color:#fff;
+    background: #cecece;
+    font-size: .16rem; 
+}
+.agree_box{
+    height:.56rem;
+    line-height: .56rem;
+    position: relative;
+}
+.agree_font{
+    position: absolute;
+    font-size: .18rem;
+    top:0rem;
+    left:-.03rem;
+}
+
+.reg_box{
+    margin-top:.1rem;
+    border:none;
+}
+.login{
+    color:#b81c22;
+}
+
+/* footer */
+.foot{
+    height: .5rem;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    background: #fff;
+}
+.foot_list{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot_icon{
+    font-size: .3rem;
+    margin-bottom: .05rem;
+}
+.weichat{
+    color:#1beb37;
+}
+.qq{
+    color:skyblue;
+}
+.weibo{
+    color:#f51313;
+}

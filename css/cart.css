@@ -1,0 +1,286 @@
+@charset "utf-8";
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height: 100%;
+}
+html{
+	font-size: 100px;
+	font-size: 26.67vw;
+}
+body{
+    font-family: "微软雅黑",Arial;
+    font-size: .12rem;
+	display: -webkit-flex;
+    flex-direction: column;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+	display: block;
+}
+a{ 
+    text-decoration: none;
+    color: #000;
+}
+/* header */
+.header{
+    height:0.44rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.16rem;
+    line-height: 0.14rem;
+}
+.back{
+    width: 0.33rem;
+    text-align: center;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart_letter{
+    width: 0.75rem;
+    flex: 1;
+    text-align: center;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.mycart{
+    font-size: .15rem;
+    color:#444444;
+}
+.comment{
+    width: 0.33rem;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+/* section */
+.section{
+    flex:1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: #f7f7f7;
+}
+
+.activity{
+    height: .28rem;
+    width: 100%;
+    background: rgba(0,0,0,.6)
+}
+.activity_hint{
+    font-size: .12rem;
+    line-height: .28rem;
+    color:#fff;
+    padding-left: .2rem;
+}
+.activity_href{
+    font-size: .12rem;
+    line-height: .28rem;
+    color:#fff;
+    text-decoration: underline;
+}
+/* shopping */
+.shopping{
+    background: #fff;
+    padding:.15rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin:.1rem 0;
+}
+.shopping_item{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid #dddddd;
+    padding:.1rem 0;
+}
+.shopping_check{
+    height: 1.16rem;
+    position: relative;
+    line-height: 1.16rem;
+    text-align: center;
+}
+.check_icon{
+    font-size: .2rem;
+    position: absolute;
+    top: -0.03rem;
+    left: -0.05rem;
+}
+.shopping_info{
+    flex:1; 
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-left:.1rem; 
+}
+.img_box{
+    height: .8rem;
+    width: .8rem;
+}
+.shopping_img{
+    height: .8rem;
+    width: .8rem;
+}
+.shopping_des{
+    width: 100%;
+    flex: 1;
+    margin-left:.1rem; 
+}
+.shopping_name{
+    font-size: .12rem;
+    font-weight: 500;
+    color: #333;
+}
+.shopping_selected{
+    font-size: .1rem;
+    color: #666666;
+    line-height: .24rem;
+}
+.shopping_price{
+    padding: .05rem 0;
+}
+.freetax_price{
+    font-size: .1rem;
+    color: #666666;
+}
+.pay_price{
+    font-size: .14rem;
+    font-weight: 600;
+    color: #b81c22;
+}
+.bazaar_price{
+    font-size: .1rem;
+    color:#cccccc;
+}
+
+.num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:.05rem;
+}
+.updata_num{
+    height: .2rem;
+    width:.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #dddddd;
+}
+.num_btn{
+    display: inline-block;
+    height: .2rem;
+    width: .2rem;
+    text-align: center;
+    line-height: .2rem;
+    font-size: .15rem;
+}
+.cases{
+   width: .41rem;
+   height: .2rem;
+   outline: none;
+   border: 1px solid #dddddd;
+   border-top:none;
+   border-bottom: none;
+   text-align: center;
+   background: #fff;
+}
+.remove_btn{
+    color:#6f6f6f;
+}
+
+.total{
+    height: .8rem;
+    width: 100%;
+}
+.total_body{
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 .1rem .1rem;
+}
+.total_row{
+    width: 100%;
+}
+.total_tit{
+    width: 80%;
+    height: 100%;
+    padding:.03rem 0;
+    text-align: right;
+    font-size: .12rem;
+    color: #999;
+}
+.total_price{
+    width:20%;
+    height: 100%;
+    text-align: center;
+}
+/* footer */
+.footer{
+    height:.43rem;
+    display: flex;
+}
+.check_all{
+    height: .43rem;
+    width: .54rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: .1rem;
+}
+.check_box3{
+    vertical-align: middle;
+    margin-right: .05rem;
+}
+.all_icon{
+    font-size: .2rem;
+    position: absolute;
+    left:.1rem;
+    top:.1rem;
+}
+.all_letter{
+    font-size: .12rem;
+    color:#616161;
+}
+
+.prices{
+    height: .43rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: .1rem;
+}
+.prices_discount{
+    font-size: .1rem;
+    color:#999999;
+}
+.all_acount{
+    font-size: .13rem;
+    color: #b81c22;
+}
+.pay_cou{
+    width: 1.1rem;
+    height: .43rem;
+    font-size: .16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b81c22;
+    color:#fff;
+    font-weight: 500;
+}
+
+
+
+
+
+
