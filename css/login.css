@@ -62,6 +62,9 @@ a{
     overflow-y: hidden;
     flex-direction: column;
 }
+.section::-webkit-scrollbar{
+    display: none;
+}
 
 .check_method{
     display: flex;

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cdf离岛免税-三亚国际免税城</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+<!-- header -->
+    <header class="head">
+        <div class="head_item head_left">
+            <span class="iconfont back">&#xe604;</span>
+        </div>
+        <div class="head_item head_center"> 
+            <input class="search" type="text" placeholder="搜索:&nbsp;&nbsp;分类&nbsp;&nbsp;品牌&nbsp;&nbsp;系列&nbsp;&nbsp;商品">
+            <span class="iconfont search_icon">&#xe609;</span>
+        </div>
+        <div class="head_item head_right">
+            <input class="search_btn" type="button" value="搜索">
+        </div>
+    </header>
+<!-- section -->
+    <section class="section">
+        <p class="search_tit">
+            热门搜索
+        </p>
+        <div class="hot_search">
+            <a class="search_item" href="">口红</a>
+            <a class="search_item" href="">口红</a>
+            <a class="search_item" href="">口红</a>
+            <a class="search_item" href="">口红</a>
+            <a class="search_item" href="">口红</a>
+            <a class="search_item" href="">口红</a>
+        </div>
+        <div class="history">
+            <p class="history_tit">
+                搜索历史
+            </p>
+            <p class="history_item history_tit">
+                口红
+            </p>
+        </div>
+        <div class="clear">
+            <input class="clear_history" value="清除搜索历史">
+        </div>
+        
+    </section>
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function(){
+        $(".back").on("touchend",function(){
+            window.history.go(-1)
+        })
+    })
+</script>

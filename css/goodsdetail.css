@@ -291,6 +291,12 @@ a{
     justify-content: flex-start;
     align-items: center;
 }
+.goods_link{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .recommend_img{
     width: 1.35rem;
     height: 1.35rem;

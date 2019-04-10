@@ -35,7 +35,9 @@ a{
     overflow-y:auto;
     flex-direction: column;
 }
-
+.section::-webkit-scrollbar{
+    display: none;
+}
 .my_account{
     height: 1.70rem;
     width:100%;

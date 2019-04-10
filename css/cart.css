@@ -69,7 +69,9 @@ a{
     flex-direction: column;
     background: #f7f7f7;
 }
-
+.section::-webkit-scrollbar{
+    display: none;
+}
 .activity{
     height: .28rem;
     width: 100%;
@@ -90,16 +92,16 @@ a{
 /* shopping */
 .shopping{
     background: #fff;
-    padding:.15rem;
     width: 100%;
     box-sizing: border-box;
-    margin:.1rem 0;
+    margin:.2rem 0;
 }
 .shopping_item{
     width: 100%;
     display: flex;
     border-top: 1px solid #dddddd;
-    padding:.1rem 0;
+    padding:.1rem .15rem;
+    box-sizing: border-box;
 }
 .shopping_check{
     height: 1.16rem;

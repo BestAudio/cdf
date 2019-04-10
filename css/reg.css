@@ -63,6 +63,9 @@ a{
     overflow-y: hidden;
     flex-direction: column;
 }
+.section::-webkit-scrollbar{
+    display: none;
+}
 .section_form{
     width: 100%;
     display: flex;
@@ -77,7 +80,7 @@ a{
     height: .41rem;
     border-bottom: .01rem solid #dddddd;
     position: relative;
-    line-height: .41rem;
+    /* line-height: .41rem; */
 }
 .message{
     height: .41rem;
@@ -91,13 +94,16 @@ a{
 .message::-webkit-input-placeholder{
     color:#cecece;
 }
-.wrong{
+.hint_icon{
     color:#b81c22;
     position: absolute;
     font-size: .2rem;
     top:0.1rem;
     right: 0rem;
     display: none;
+}
+.right{
+    color:#11e972;
 }
 .hint{
     display: block;

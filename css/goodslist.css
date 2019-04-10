@@ -134,6 +134,9 @@ a{
     overflow-x: hidden;
     flex-direction: column;
 }
+.section::-webkit-scrollbar{
+    display: none;
+}
 .goods_list{
     width: 100%;
     display: flex;
@@ -143,6 +146,10 @@ a{
 .goods_item{
     width:50%;
     height:2.64rem ;
+}
+.goods_link{
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
