@@ -14,7 +14,7 @@ body{
     font-family: "微软雅黑",Arial;
     font-size: .12rem;
 	display: -webkit-flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 ul,ol{
 	list-style:none;
@@ -203,4 +203,82 @@ a{
     color:#fff;
     padding:.02rem .05rem;
     line-height: .14rem;
+}
+
+/* filter */
+.filter{
+    flex:1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    display: none;
+    padding-top: .2rem;
+    background: #f0f0f0;
+}
+.classify_box{
+    height: 100%;
+    width: .92rem;
+    border-right: 1px solid #f0f0f0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: #fff;
+}
+.classify_box::-webkit-scrollbar{
+    display:none;
+}
+.classify_sort{
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column;
+    background: #fff;
+}
+.classify_sort::-webkit-scrollbar{
+    display:none;
+}
+.classify_lists{
+    width: 100%;
+}
+.classify_lists_item{
+    width: 100%;
+    height: .44rem;
+    box-sizing: border-box;
+    padding-left: .2rem;
+    line-height: .44rem;
+    font-size: .14rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+.first_list{
+    padding-right: .2rem;
+    display: flex;
+    align-items: center;
+}
+.sort_classify{
+    flex: 1;
+    text-align: center;
+}
+.sort_tit{
+    display: inline-block;
+    height: 100%;
+    color: #b81c22;
+    border-bottom: 1px solid #b81c22;
+}
+
+/*back_top*/
+.back_top{
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.6);
+    position: absolute;
+    background: rgba(255,255,255,.6);
+    bottom: .65rem;
+    right:.2rem;
+    text-align: center;
+    display: none;
+}
+.back{
+    font-size: .24rem;
+    line-height: .48rem;
 }

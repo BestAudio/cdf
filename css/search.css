@@ -154,3 +154,21 @@ a{
     padding:.02rem 0;
     border-radius: 5px;
 }
+
+/*back_top*/
+.back_top{
+    width: .48rem;
+    height: .48rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.6);
+    position: absolute;
+    background: rgba(255,255,255,.6);
+    bottom: .65rem;
+    right:.2rem;
+    text-align: center;
+    display: none;
+}
+.back{
+    font-size: .24rem;
+    line-height: .48rem;
+}

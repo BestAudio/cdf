@@ -57,6 +57,19 @@ $(function(){
             $(this).parents(".shopping_item").appendTo($(".check"));
         }
         totals()
+         let result = true;
+            $('.check_goods').each(function(i,item){
+                if($(item).attr('checked') !== 'checked'){
+                    result = false;
+                } 
+            })
+            if(result){
+                $("#select_all").attr('checked',true);
+                $(".all_icon").css({"color":"#000"}) 
+            }else{
+                $("#select_all").attr('checked',false);
+                $(".all_icon").css({"color":"#ccc"}) 
+            }
     });
 
     //全选反选
@@ -81,6 +94,7 @@ $(function(){
             totals()
         }
     })
+
     $(".all_letter").on('click',function(){
         if($(this).prev().prev().attr('checked') == "checked"){
             $(this).prev().css({"color":"#ccc"});
@@ -100,5 +114,7 @@ $(function(){
             totals()
         }
     })
+
+
     //删除功能
 })
