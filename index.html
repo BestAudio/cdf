@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>cdf离岛免税-三亚国际免税城</title>
     <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -26,8 +27,29 @@
 <!-- section -->
     <section class="content">
     <!-- banner -->
-        <div class="banner">
-            <!-- <img class="banner_img" src="img/index/banner01.jpg" alt=""> -->
+        <div class="banner swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner01.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner02.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner03.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner04.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner05.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="banner_img" src="img/index/banner06.jpg" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
         </div>
     <!-- affiche -->
         <div class="affiche">
@@ -90,17 +112,9 @@
                     <img class="special_img_item" src="img/index/hr.jpg" alt="">
                 </a>
             </div>
-            <ul class="special_goodslist">
-                <li class="special_goodslist_item">
-                    <a class="goods_link" href="">
-                        <img class="goods_img" src="img/index/product03.jpg" alt="">
-                        <span class="goods goods_name">乔治 阿玛尼</span>
-                        <span class="goods goods_description">阿玛尼莹润迷情唇膏 506</span>
-                        <span class="goods">促销价:<i class="goods_price">￥158.90</i></span>
-                        <span class="goods goods_discounts">立省￥68.80</span>
-                    </a>
-                </li>
-                <li class="special_goodslist_item">
+            <div class="special_goodslist swiper-container">
+                <ul class="swiper-wrapper specials">
+                    <li class="special_goodslist_item swiper-slide">
                         <a class="goods_link" href="">
                             <img class="goods_img" src="img/index/product03.jpg" alt="">
                             <span class="goods goods_name">乔治 阿玛尼</span>
@@ -109,17 +123,46 @@
                             <span class="goods goods_discounts">立省￥68.80</span>
                         </a>
                     </li>
-                <li class="special_goodslist_item see_all">
-                    <div class="more">
+                    <li class="special_goodslist_item swiper-slide">
                         <a class="goods_link" href="">
-                            <span class="see_all_letter">
-                        查看更多<br/>
-                            SEE ALL
-                            </span>
+                            <img class="goods_img" src="img/index/product03.jpg" alt="">
+                            <span class="goods goods_name">乔治 阿玛尼</span>
+                            <span class="goods goods_description">阿玛尼莹润迷情唇膏 506</span>
+                            <span class="goods">促销价:<i class="goods_price">￥158.90</i></span>
+                            <span class="goods goods_discounts">立省￥68.80</span>
                         </a>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                    <li class="special_goodslist_item swiper-slide">
+                        <a class="goods_link" href="">
+                            <img class="goods_img" src="img/index/product03.jpg" alt="">
+                            <span class="goods goods_name">乔治 阿玛尼</span>
+                            <span class="goods goods_description">阿玛尼莹润迷情唇膏 506</span>
+                            <span class="goods">促销价:<i class="goods_price">￥158.90</i></span>
+                            <span class="goods goods_discounts">立省￥68.80</span>
+                        </a>
+                    </li>
+                    <li class="special_goodslist_item swiper-slide">
+                        <a class="goods_link" href="">
+                            <img class="goods_img" src="img/index/product03.jpg" alt="">
+                            <span class="goods goods_name">乔治 阿玛尼</span>
+                            <span class="goods goods_description">阿玛尼莹润迷情唇膏 506</span>
+                            <span class="goods">促销价:<i class="goods_price">￥158.90</i></span>
+                            <span class="goods goods_discounts">立省￥68.80</span>
+                        </a>
+                    </li>
+                    <li class="special_goodslist_item swiper-slide see_all">
+                        <div class="more">
+                            <a class="goods_link" href="">
+                                <span class="see_all_letter">
+                            查看更多<br/>
+                                SEE ALL
+                                </span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
         </div>
         <div class="special">
             <div class="special_title">
@@ -231,6 +274,27 @@
                     <img class="special_img_item" src="img/index/hr.jpg" alt="">
                 </a>
             </div>
+            <ul class="special_goodslist">
+                <li class="special_goodslist_item">
+                    <a class="goods_link" href="">
+                        <img class="goods_img" src="img/index/product03.jpg" alt="">
+                        <span class="goods goods_name">乔治 阿玛尼</span>
+                        <span class="goods goods_description">阿玛尼莹润迷情唇膏 506</span>
+                        <span class="goods">促销价:<i class="goods_price">￥158.90</i></span>
+                        <span class="goods goods_discounts">立省￥68.80</span>
+                    </a>
+                </li>
+                <li class="special_goodslist_item see_all">
+                    <div class="more">
+                        <a class="goods_link" href="">
+                            <span class="see_all_letter">
+                        查看更多<br/>
+                            SEE ALL
+                            </span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
         </div>
     <!-- everyone -->
         <div class="everyone">
@@ -314,6 +378,7 @@
     </div>
 </body>
 </html>
-<script src="js/bannerPic.js"></script>
+<!-- <script src="js/bannerPic.js"></script> -->
 <script src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
 <script src="js/index.js"></script>

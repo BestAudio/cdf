@@ -42,12 +42,13 @@ a{
 }
 .logo{
     height: .32rem;
-    width: .55rem;
-    padding-left: .08rem;
+    width: .50rem;
+    text-align: center;
 }
 .logo_img{
-    height: 100%;
-    width: 80%;
+    display: inline;
+    height: .30rem;
+    width: .4rem;
     line-height: .32rem;
 }
 .search{
@@ -59,6 +60,7 @@ a{
     background: #fff;
     border-radius: 5px;
     text-indent: .1rem;
+    margin-left: .05rem;
 }
 .scan{
     height: .32rem;
@@ -96,14 +98,16 @@ a{
 
 /* affiche */
 .affiche{
-    height: .31rem;
+    height: .3rem;
     width: 100%;
+    box-sizing: border-box;;
     background: rgba(0,0,0,.8);
     display: -webkit-flex;
     align-items: center;
-    padding:0 .1rem;
+    padding:0 .2rem;
 }
 .affiche_span{
+    font-size: .12rem;
     color:#fff;
 }
 .affiche_content{
@@ -130,7 +134,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:#000;
+    color:#666;
     padding:0 .12rem;
 }
 .nav_img{
@@ -142,13 +146,14 @@ a{
 .recommend{
     width: 100%;
     height: 2.18rem;
-    margin-bottom: .1rem;
+    padding-bottom: .1rem;
     display: flex;
     justify-content: space-between;
+    background: #fff;
 }
 .recom_img{
     height: 100%;
-    width:1.84rem;
+    width:1.82rem;
 }
 .recom_img_item{
     height: 100%;
@@ -199,7 +204,6 @@ a{
     width: 100%;
     height: 100%;
 }
-
 .special_goodslist{
     height: 2.26rem;
     width: 100%;
@@ -208,6 +212,11 @@ a{
     align-items: center;
     background: #fff;
     overflow-x: auto;
+}
+.specials{
+     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 .special_goodslist::-webkit-scrollbar{
     display: none;
@@ -267,7 +276,7 @@ a{
     background: #b01422;
 }
 .special_last{
-    height: 2.14rem;
+    margin-bottom: 0;
 }
 
 /* everyone */
